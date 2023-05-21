@@ -1,12 +1,12 @@
-# [:] Example Node Project
+# [:] Example Node Project With LockFile V3
 
-An example node project to demonstrate [srcclr](https://www.srcclr.com) scans.
+An example node project to demonstrate quick scan with npm lockfilev3 (https://www.veracode.com/products/software-composition-analysis) scans.
 
 ## Try me!
 
 ```
-brew tap srcclr/srcclr
-brew install srcclr
+brew tap veracode/srcclr
+brew cask install srcclr
 srcclr activate
-srcclr scan --url https://github.com/srcclr/example-javascript
+srcclr scan --url https://github.com/veracode/example-java-script-lock-fileV3
 ```
