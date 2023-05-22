@@ -8,5 +8,5 @@ An example node project to demonstrate quick scan with npm lockfilev3 (https://w
 brew tap veracode/srcclr
 brew cask install srcclr
 srcclr activate
-srcclr scan --url https://github.com/veracode/example-java-script-lock-fileV3
+srcclr scan --quick  --url https://github.com/veracode/example-java-script-lock-fileV3
 ```
